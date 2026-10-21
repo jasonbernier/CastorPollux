@@ -4,14 +4,6 @@
 
 CastorPollux is a Windows desktop workbench for investigating binaries. It runs Ghidra and REA to collect disassembly, functions, cross-references, and reconstructed C-like pseudocode, then can ask an installed Codex, Claude Code, OpenCode, or local Ollama agent to review the saved evidence for possible vulnerabilities. Its output includes searchable evidence, coverage, logs, structured findings, and reports.
 
-**First release:** 1.0.0 · **Platform:** Windows x64 · **Release:** one self-extracting EXE with the analysis engines and GUI runtime bundled · **Agent CLIs:** installed separately.
-
-The Gemini twin-star artwork appears in the navigation, About screen, and Windows icon. The first run imports available settings and investigation history from the previous application-data folder.
-
-The desktop interface provides searchable Credits with in-app license text, scalable fonts, a High Contrast theme and keyboard focus rings, resizable evidence panes, saved layout presets, configurable shortcuts with conflict checking, autosaved form drafts and an unsaved-edits badge, passive workspace restore with optional tab reopening, an interrupted-session recovery prompt with stage logs and resume choices, a command palette with saved actions and clearable history, and help linked to the active screen.
-
-See the [Graph Lab evidence guide](docs/GRAPH_LAB.md) for import formats, CI configuration, validation limits, and saved artifacts.
-
 ## What it does
 
 1. **Analyze:** Choose a binary and output folder. CastorPollux verifies and copies the input, runs Ghidra headless exports, asks REA to analyze and decompile procedures through its Ghidra provider, and saves `rea-pseudocode.c`, `rea-decompilation.json`, a snapshot, supplemental exports, a Ghidra project, logs, and `manifest.json`.
