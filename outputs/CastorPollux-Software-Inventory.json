@@ -1,0 +1,61 @@
+{
+  "application": "CastorPollux",
+  "version": "1.0.0",
+  "generated_at": "2026-10-20T23:06:00+00:00",
+  "application_sha256": "409ab62456aa4da264eaacda8dc2901fed75579f55085bb474df166ae4259952",
+  "application_signature": {
+    "subject": "",
+    "status": "NotSigned",
+    "issuer": "",
+    "thumbprint": "",
+    "valid_until": ""
+  },
+  "components": [
+    {
+      "name": "ghidra",
+      "version": "12.1.4",
+      "license": "Apache-2.0 and bundled module notices",
+      "bundled_file": "ghidra_12.1.4_PUBLIC_20260921.zip",
+      "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+      "authenticode": {
+        "status": "not_applicable"
+      }
+    },
+    {
+      "name": "jdk",
+      "version": "21.0.12.1+1",
+      "license": "GPL-2.0 with Classpath Exception and bundled notices",
+      "bundled_file": "OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "authenticode": {
+        "status": "not_applicable"
+      }
+    },
+    {
+      "name": "node",
+      "version": "24.19.0",
+      "license": "Node.js license and bundled component notices",
+      "bundled_file": "node.exe",
+      "sha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237",
+      "authenticode": {
+        "subject": "CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US",
+        "status": "Valid",
+        "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+        "thumbprint": "8EA1D142EA3F46023BACA38C23A7E7AE6AFCE30C",
+        "valid_until": "08/04/2026 21:28:56"
+      }
+    },
+    {
+      "name": "rea",
+      "version": "6.5.0",
+      "license": "MIT and REA third-party notices",
+      "bundled_file": "rea.mjs",
+      "sha256": "526105418604cc6e5a202a6275b700814e27450bfaffd45e7510530ba669de8d",
+      "authenticode": {
+        "status": "not_applicable"
+      }
+    }
+  ],
+  "update_policy": "Components are fetched from upstream HTTPS sources and verified against published SHA-256 or package integrity. A publisher signature is required before a release can be described as signed.",
+  "notices": "See CastorPollux-CREDITS.md and CastorPollux-Licenses/."
+}

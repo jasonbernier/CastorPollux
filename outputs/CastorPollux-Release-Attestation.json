@@ -1,0 +1,385 @@
+{
+  "schema": 1,
+  "type": "local-build-attestation",
+  "application_version": "1.0.0",
+  "build_time": "2026-10-20T23:06:00+00:00",
+  "source_date_epoch": 1792537560,
+  "builder": {
+    "python": "3.12.10",
+    "pyinstaller": "6.21.0",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "recipe": [
+    "python -m PyInstaller --noconfirm work/CastorPollux.spec",
+    "python work/build_release.py"
+  ],
+  "materials": [
+    {
+      "path": "work/build_github_archive.py",
+      "sha256": "7ffac93503d7678807dc6708044c21e111b10347c007c72bd427a1850889dcdd"
+    },
+    {
+      "path": "work/build_release.py",
+      "sha256": "b08db9b9aabd1f93f439381b18812febd7253f20cb7cef6878ca554298f395dd"
+    },
+    {
+      "path": "work/castorpollux.py",
+      "sha256": "9359f31002353ba6a1461b79b1818f3a34282e4ad24d20e701203f516ab7db6a"
+    },
+    {
+      "path": "work/castorpollux_advanced.py",
+      "sha256": "cd7498af9447d55944b494ab40053d77491bb446b0684d67dcde91af63cb9691"
+    },
+    {
+      "path": "work/castorpollux_applicability.py",
+      "sha256": "a7e90498ec08665dfce3f7b4836788e527b7658be7aa54665d1de9327fac2f82"
+    },
+    {
+      "path": "work/castorpollux_batch.py",
+      "sha256": "da82cad125fa2e0752fb278ce49f4ae3f23a82a99a53831837fe9163cac09a69"
+    },
+    {
+      "path": "work/castorpollux_binary_profile.py",
+      "sha256": "059ee739e22c8cbb6a3f7a68c0972a63b3c9e6ac27e5f33b22c861f2e87a2453"
+    },
+    {
+      "path": "work/castorpollux_blocks.py",
+      "sha256": "4cd0821838dc75240e64f3c6a6db37bc96b10d3359824b99e52445ad3d471b18"
+    },
+    {
+      "path": "work/castorpollux_bundle.py",
+      "sha256": "676baa3c41bd7ef9ebc7d1e4b89523b800918b89f8f9eda639f997aa29cf945d"
+    },
+    {
+      "path": "work/castorpollux_callpaths.py",
+      "sha256": "2338382bc5131749e297e195db39dd3c63295d01b523b1299abd0c49f1cc9d65"
+    },
+    {
+      "path": "work/castorpollux_changegate.py",
+      "sha256": "f41111991b80a471354404c94c9bb172da1112335019c2abf581a4e5e6464db4"
+    },
+    {
+      "path": "work/castorpollux_consistency.py",
+      "sha256": "9033ce2a719ac7c79171eaf951e546628c6d2f8274e561db066e13b715abc22b"
+    },
+    {
+      "path": "work/castorpollux_core.py",
+      "sha256": "6df46ea4d93e844434ace88139f2bd1731161bdbf4aded915a868076607e7a50"
+    },
+    {
+      "path": "work/castorpollux_dashboard_export.py",
+      "sha256": "835e667403331e29d046556d6080b11bb3796238b93cc993ebbb42045e8c7bdd"
+    },
+    {
+      "path": "work/castorpollux_diagnostics.py",
+      "sha256": "fe4978f2dc2c2d8de45693ab76448df442eef0deaac6602f99811984fd5377b3"
+    },
+    {
+      "path": "work/castorpollux_drafts.py",
+      "sha256": "010d74a79485d0b279e492f7ad630c427e99e885e8c7e5813162d59068c5a438"
+    },
+    {
+      "path": "work/castorpollux_drop.py",
+      "sha256": "6047221d925fa9a7c52cc31625ac7ed4715b4e6a41c05d901bea67f14a25cd3e"
+    },
+    {
+      "path": "work/castorpollux_evidence_tools.py",
+      "sha256": "96cc711e46aa10f1560f0a6cc02e6b557af5f88e0142100cbdb9ab2ad17710b6"
+    },
+    {
+      "path": "work/castorpollux_findings.py",
+      "sha256": "3b6ca70e2dc4f861e5964482b6765f065871a39592bf05c3e22516481c932e98"
+    },
+    {
+      "path": "work/castorpollux_flow.py",
+      "sha256": "97e2f9fdf8c752bf785820f5ddb3f4b0c3908d2694a853cda15e3238a323e1b4"
+    },
+    {
+      "path": "work/castorpollux_html.py",
+      "sha256": "5952368c2be03a8aa2400cc9aa773b8bf0b014a9e2535de2c2a0bcdb8b9bc207"
+    },
+    {
+      "path": "work/castorpollux_indirect.py",
+      "sha256": "a670d647f19fa660dd82d71c7741dc3eac760d5bf34a24991270b587138e4124"
+    },
+    {
+      "path": "work/castorpollux_inputs.py",
+      "sha256": "1b4f94051ab91ff87333e187f51f0194efe9e0b49b53e7297a7560337435bec4"
+    },
+    {
+      "path": "work/castorpollux_integrity.py",
+      "sha256": "727dfdaaeaeb431ec78b95f408ec6da4be53efe0aa077d388b8f0f02d28f88f1"
+    },
+    {
+      "path": "work/castorpollux_intelligence.py",
+      "sha256": "eb0d7ef584c3559671054518ec7387d5ee3b335e0b7b5b778cfe5411b64af56e"
+    },
+    {
+      "path": "work/castorpollux_interflow.py",
+      "sha256": "5ac7f8562d480a9f45276935affcfddeec9f1afc2d4db2308928b96ae944d0d4"
+    },
+    {
+      "path": "work/castorpollux_matching.py",
+      "sha256": "0bd5598c8b4ca7d39bf7a27bf4f8daed6cf3e00cadb795bd20d1ba8f3214fe81"
+    },
+    {
+      "path": "work/castorpollux_metrics.py",
+      "sha256": "d0c449158910fdb60e9c3a5257cc8fa1cfb534cc6a0bbbc60476deff1dba8922"
+    },
+    {
+      "path": "work/castorpollux_overflow.py",
+      "sha256": "cefde36c6559428fe772d15bc3f003c220e57e1caff122ae0c557310be451263"
+    },
+    {
+      "path": "work/castorpollux_patch.py",
+      "sha256": "1a341b777de27d941a1e44353ac9508d7d13061cb017a0f1c1ee5e2d306bf700"
+    },
+    {
+      "path": "work/castorpollux_pecheck.py",
+      "sha256": "26650642cdce92f745b190dd20dee021cfa291af2675ea4bcc49282b40cf4e6b"
+    },
+    {
+      "path": "work/castorpollux_plugins.py",
+      "sha256": "9aa0e2e3f1b28e881f84868519029cd1f62a3772bfef28f250650aeb837917c7"
+    },
+    {
+      "path": "work/castorpollux_poc.py",
+      "sha256": "6964e6e30eec575416fc0bb9e578c7bcda91319486382bc04555c14fb912a22c"
+    },
+    {
+      "path": "work/castorpollux_preflight.py",
+      "sha256": "289f04f96f2ae21a0a11d30f3dd3cee79854911a80339e74c534a4659373f656"
+    },
+    {
+      "path": "work/castorpollux_quality.py",
+      "sha256": "66b9d2a645bb88e63b3e0c552e8c3e8088fcb38d230a3ea94558d894c59a9d6e"
+    },
+    {
+      "path": "work/castorpollux_rea.py",
+      "sha256": "2193d46b17100399e433ee9fd2c8539d5571998cae8068764be4f238df66b35f"
+    },
+    {
+      "path": "work/castorpollux_recovery.py",
+      "sha256": "ed146ab3729164e59f8c4727e3b700a73d4df04e41b86f9611934303b74432cb"
+    },
+    {
+      "path": "work/castorpollux_report_evidence.py",
+      "sha256": "24c9aac38ced83624ec09674caefb890096c916f02ae2cb76ae02b3ac50b7c09"
+    },
+    {
+      "path": "work/castorpollux_review.py",
+      "sha256": "24c965ca4fac5caa33ed2fff59052b44813a77d38a05ef3764d78c752727dbb0"
+    },
+    {
+      "path": "work/castorpollux_runtime.py",
+      "sha256": "b1bacb94ba1335b5470fe26ac99867239e99c12428e6bec4e20bfee531ee9971"
+    },
+    {
+      "path": "work/castorpollux_sarif.py",
+      "sha256": "d63332d5e21ff404288c698b28d1631064813d22abb423874733326a0ae9f0aa"
+    },
+    {
+      "path": "work/castorpollux_sbom.py",
+      "sha256": "f7c1f3bb7dea5f57adb958cd1cd91c968b04704bf90a1afd103bb6446435688d"
+    },
+    {
+      "path": "work/castorpollux_secrets.py",
+      "sha256": "523264cae7b23afaf2a991fe30aff27a5978c408d1fea4c9435265be172b0608"
+    },
+    {
+      "path": "work/castorpollux_settings.py",
+      "sha256": "1b4e1569e48d0a3f31bb1aab9d289bd3a87c7fbdb71024ad5feaac863f393dc3"
+    },
+    {
+      "path": "work/castorpollux_similarity.py",
+      "sha256": "964d1d2d672aade20b37d872a91e23afc24258c0fff83da0e7341876ab6913ab"
+    },
+    {
+      "path": "work/castorpollux_symbols.py",
+      "sha256": "07d68f3d12e7855a26d94fbaa14c68756ca302be055f6ea869cde97d039da3e1"
+    },
+    {
+      "path": "work/castorpollux_tracking.py",
+      "sha256": "17d6e8827a15fbe39fdb0f514eb5b469063a4fe429af5a86fae9959918f7b3cf"
+    },
+    {
+      "path": "work/castorpollux_ui_state.py",
+      "sha256": "7ea072398d12b4742b5976076e5682817b1228edb22b04972ab18d383d900165"
+    },
+    {
+      "path": "work/castorpollux_ui_support.py",
+      "sha256": "958efc85680c51d74c33625b87b85eb735eec5bf560e1effe8be3e67705b1bf3"
+    },
+    {
+      "path": "work/castorpollux_unpack.py",
+      "sha256": "1b2dfcfbf5f7190f21dc2090db2c489e7017e505a78ae69dc97055758f6eb889"
+    },
+    {
+      "path": "work/castorpollux_usage.py",
+      "sha256": "559302ace835d7a6963676df29c55c462f9ae3cbad2d5f1a89a2aeb073779670"
+    },
+    {
+      "path": "work/castorpollux_workspace.py",
+      "sha256": "1b6b316c93c84108b13a186ade54b12a9de459c3185834fa8d1a6f314df8685b"
+    },
+    {
+      "path": "work/ExportBinaryStudio.py",
+      "sha256": "5548dcb350d073dd6785a95aa968660125f6d781604e537d52e5ba65839ed6c4"
+    },
+    {
+      "path": "work/gui_smoke.py",
+      "sha256": "94af56a9cf131bb3f5e53e164d5db57e157fba7847137e9f86656ba18ebe50cc"
+    },
+    {
+      "path": "work/package_v130.py",
+      "sha256": "f3a99719087f3aa2f64d655983462317ccdb598986b88bea9bcaf5d8cc8c840b"
+    },
+    {
+      "path": "work/probe_rea_mcp.py",
+      "sha256": "92a7362404ea87f3961fac76874ebffaf69a9c62ad24767d3f4c5e8eb8d9adf4"
+    },
+    {
+      "path": "work/rea_binary_studio.py",
+      "sha256": "2fec69030ac1f1393e5af5b1dcc056f268a8e43b7af3ad77bb6c150942802490"
+    },
+    {
+      "path": "work/rea_desktop.py",
+      "sha256": "99fd87cd9ef5fa7909b99969d6424e3262da24fcf2440bceec59a365b5ed2b4d"
+    },
+    {
+      "path": "work/release_attestation.py",
+      "sha256": "a6cf037aa9d314a5bd21b3b14a4e2b0610e79a2adc04f0f4b5b6f01e549663fd"
+    },
+    {
+      "path": "work/release_inventory.py",
+      "sha256": "927d6d37099bf723810c1cf2969ba191c33927d93d6615a17c9a590aaa3faa79"
+    },
+    {
+      "path": "work/release_license_inventory.py",
+      "sha256": "a205429a0dd87bc19e338fbd59fd85b54d5491e82a8fe2418f3e5fcaf51c9570"
+    },
+    {
+      "path": "work/release_sign.py",
+      "sha256": "bb445fc2e39686bd87992a610376981445e1c64e84648d8c9bbd27836e920ed8"
+    },
+    {
+      "path": "work/scripts/CastorPolluxSymbols.java",
+      "sha256": "1923f0648da5866bed45d709fb5a8aeb570f846f7a9cc6a5cd52e049654d8eda"
+    },
+    {
+      "path": "work/scripts/ExportBinaryStudio.java",
+      "sha256": "c7e54b7634d785d6a883fc02691564793450432a441a7da9c93d17aaa2861366"
+    },
+    {
+      "path": "work/scripts/TraceInSandbox.ps1",
+      "sha256": "86d3ab9b6db5519c8d578266fd351d2e4df916d889ecdf13dcfa80db2d18f1e6"
+    },
+    {
+      "path": "work/assets/castorpollux-gemini.png",
+      "sha256": "58f1b5e1656a63199757bfe964adefee121af37e7dec55bd9c46f2c968754b47"
+    },
+    {
+      "path": "work/assets/CastorPollux.ico",
+      "sha256": "6aea4a4897741fe4bbe124aafccd6502c60606827a86b0d4099e2e773f167567"
+    },
+    {
+      "path": "work/CastorPollux.spec",
+      "sha256": "ffd2b6b5fad7f0124ba309e9e95708729b2ff961386d56c19fbf1fb73f5ed0f0"
+    },
+    {
+      "path": "work/content/about.html",
+      "sha256": "78a8e26b856735641310668c83dfc1042a2b9dcece35b09b7d5e372fe67ce8aa"
+    },
+    {
+      "path": "work/content/help.html",
+      "sha256": "eb9786a35cc3ae74af4d2145d63ddf05b65b369bf22c31f629dd21ad50060c99"
+    },
+    {
+      "path": "work/archives/ghidra_12.1.4_PUBLIC_20260921.zip",
+      "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db"
+    },
+    {
+      "path": "work/archives/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e"
+    },
+    {
+      "path": "work/runtime/node.exe",
+      "sha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237"
+    },
+    {
+      "path": "work/runtime/node_modules/rea-agents/scripts/rea.mjs",
+      "sha256": "526105418604cc6e5a202a6275b700814e27450bfaffd45e7510530ba669de8d"
+    },
+    {
+      "path": "outputs/CastorPollux-README.md",
+      "sha256": "5c34557d6afe6dada3b3acebc762aa312a3164ab5a4dc047f4f2315f8e087d86"
+    },
+    {
+      "path": "outputs/CastorPollux-CREDITS.md",
+      "sha256": "6cf011371b104914bf2f3a910f97ae14aa1090e9830af0d972e120cc80ae7390"
+    },
+    {
+      "path": "outputs/CastorPollux-Codex-Prompt.txt",
+      "sha256": "17a857e44a4dc26227302ae7a0c0001cbdcc9e339a77cee88a09c90a8b8b985d"
+    },
+    {
+      "path": "outputs/CastorPollux-Batch-Example.json",
+      "sha256": "b2867301702f567811c4418467e1a425928b275eb7e3f60a31d26b341129fe79"
+    },
+    {
+      "path": "outputs/CastorPollux-CI-Example.ps1",
+      "sha256": "2a18ccfbbfa4911cc7a14372993e6e131e975fca01237316c16d9acd238bdf09"
+    },
+    {
+      "path": "outputs/CastorPollux-Commercial-License-Audit.md",
+      "sha256": "4995080545128cca8d2afe9ee8cf87df49e2262d9e8b11cd2a2ce47f0dd2ca16"
+    },
+    {
+      "path": "outputs/CastorPollux-Software-Inventory.json",
+      "sha256": "aa2721807c9b8e4aa4e26d80151a14b9dae15088afb54ba465c064c1978ff040"
+    },
+    {
+      "path": "outputs/CastorPollux-License-Inventory.json",
+      "sha256": "18bd9ca26293581a3a25597ed82548d865e9e6aa3906ddef90cd61ccef1afd14"
+    },
+    {
+      "path": "outputs/CastorPollux-SHA256.txt",
+      "sha256": "60fe8253ac0a47cbdb12819a0c7f9812545c176c5fd3a2a81d0e39d7d8c0e699"
+    },
+    {
+      "path": "outputs/CastorPollux-Flow-Rules-Example.json",
+      "sha256": "031a36c5346fb0ba581916ddc54459f11426aac9f53da26fb12a426d4436aa28"
+    },
+    {
+      "path": "outputs/CastorPollux-Plugin-Example.json",
+      "sha256": "04696ef62c4176d417d3ce5afb44b74bac48a034c6c38911129cb2d46b256b09"
+    },
+    {
+      "path": "outputs/CastorPollux-Advisory-Rules-Example.json",
+      "sha256": "c31ad6b522d27d48bf4b5e904155ec6a5ab58e3cfbc905ba8b02703d6822d64b"
+    },
+    {
+      "path": "work/runtime/node_modules",
+      "tree_sha256": "6a7941426a80c2e1d7aa0b55756e9e386a809432d5a266f914105fc9fd15c1c7",
+      "file_count": 8033
+    },
+    {
+      "path": "work/runtime/pnpm",
+      "tree_sha256": "3a8d80db917489c62f1fb0c8337199e6f8018e0ae816ca4cd2b3f5ff8cd73a5b",
+      "file_count": 509
+    },
+    {
+      "path": "outputs/CastorPollux-Licenses",
+      "tree_sha256": "197ab6cef21167ce28e2f97c9d7877955d3cbafdae3717da8e5ed25936c84f1d",
+      "file_count": 19
+    }
+  ],
+  "subjects": [
+    {
+      "name": "CastorPollux.exe",
+      "sha256": "409ab62456aa4da264eaacda8dc2901fed75579f55085bb474df166ae4259952"
+    }
+  ],
+  "signature": "unsigned",
+  "note": "This records exact inputs and output. It is not a third-party or cryptographically signed provenance claim."
+}

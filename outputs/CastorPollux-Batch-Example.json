@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    "C:/path/to/first-binary.exe",
+    "C:/path/to/second-binary.dll"
+  ],
+  "output": "C:/path/to/existing-output-folder",
+  "summary": "C:/path/to/existing-output-folder/castorpollux-batch-summary.json",
+  "agent": "codex",
+  "formats": ["json", "md", "html", "pdf"],
+  "minimum_coverage": 80,
+  "fail_on_quality": true,
+  "redact_cloud": true,
+  "redaction_terms": [],
+  "secondary_decompiler": true,
+  "daybreak_blue": false
+}

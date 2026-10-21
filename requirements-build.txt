@@ -1,0 +1,7 @@
+customtkinter==6.0.0
+darkdetect==0.8.0
+packaging==26.3
+reportlab==4.4.6
+pillow==12.3.0
+charset-normalizer==3.5.2
+pyinstaller==6.21.0

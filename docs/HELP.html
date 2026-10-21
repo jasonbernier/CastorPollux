@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>CastorPollux Help</title></head><body>
+<h1>CastorPollux Help</h1>
+<p>Use the topic selector or search box above to find a task. Every scan is saved in its own investigation folder; History is the fastest way back to its evidence, logs, and reports.</p>
+
+<section data-title="Start here"><h2>Start here</h2>
+<ol><li>Open <strong>Analyze</strong>. Drop a binary on the target area or choose <strong>Browse</strong>.</li>
+<li>Choose an existing output folder. Optional PDB or DWARF symbols must match the exact binary build.</li>
+<li>Select <strong>Analyze → Agent Review</strong> for the full workflow, or Analyze for static evidence only.</li>
+<li>Watch stage percentage and activity output. Open <strong>History</strong> after completion to inspect saved work.</li></ol>
+<p>Example: scan <code>C:\Samples\program.exe</code> into <code>C:\Investigations</code>. The app creates a separate timestamped folder containing the copied target, manifest, pseudocode, evidence, and logs.</p></section>
+
+<section data-title="Analyze a binary"><h2>Analyze a binary</h2>
+<p>Ghidra imports the target and exports program evidence. REA runs analysis and procedure decompilation against the saved target. The Coverage page shows which procedures succeeded, failed, or remain pending. Missing symbols can reduce readable names without preventing a scan.</p>
+<p>If an engine fails, open History → Logs and read the Ghidra and REA logs. Use Resume to retry incomplete stages in the same investigation. Do not assume a saved report covers procedures that failed decompilation.</p></section>
+
+<section data-title="Agent review"><h2>Agent review</h2>
+<p>In Agent Review, select Codex, Claude Code, OpenCode, or a local Ollama model. Use <strong>Auto Detect</strong> or browse to an installed CLI. Choose review scope, report formats, and a minimum coverage threshold. Select <strong>Evidence Preview</strong> before cloud review to see the text that will be staged, including redactions.</p>
+<p>The review prompt states the defensive purpose, requests evidence-backed findings, and asks for limits and confirmation steps. The agent reads staged pseudocode and analysis text from a local review folder. It does not decompile the target itself. Cloud agents may decline content; your static analysis remains saved.</p>
+<p>Example: select Functions and enter <code>0x140001000, ParsePacket</code> to focus review on those procedures. For a broad first pass, select All.</p></section>
+
+<section data-title="Browse evidence"><h2>Browse evidence</h2>
+<p>Investigations searches functions, strings, imports, pseudocode, and cross-references. Coverage lists decompilation outcomes and confidence. Evidence Lab links pseudocode lines to binary addresses. Call Paths and Graph Lab show the path and supporting edges behind a finding.</p>
+<p>Use Findings to open a cited procedure, inspect the code excerpt and call path, record a triage decision, and follow the confirmation checklist. A finding with low coverage or uncertain call edges needs extra manual review.</p></section>
+
+<section data-title="REA actions and console"><h2>REA actions and console</h2>
+<p><strong>REA Actions</strong> provides buttons for overview, strings, functions, decompilation, instructions, cross-references, and tracing. Select a saved investigation and enter a search term, function, or address. Overview works with an empty input.</p>
+<p><strong>REA Console</strong> accepts a JSON array of CLI arguments, without a shell. Example: <code>["--help"]</code>. Use <code>{binary}</code> and <code>{snapshot}</code> placeholders for the saved target and REA snapshot. Review commands before running them because the full CLI includes operations beyond inspection.</p></section>
+
+<section data-title="History and recovery"><h2>History and recovery</h2>
+<p>History lists prior investigations with stage status, coverage, warnings, review state, and logs. Search by name or path. Open a record for its dashboard or results; use Resume for incomplete engine stages. Agent reviews are marked stale when analysis changes afterward.</p>
+<p>Example: if Ghidra export fails but REA decompilation succeeds, History shows each status separately. Open Logs to see the exact engine error, then Resume the failed stage after correcting the engine installation.</p></section>
+
+<section data-title="Compare and report"><h2>Compare and report</h2>
+<p>Compare Builds highlights changed functions, strings, imports, and evidence. Findings tracking connects recurring or resolved issues across builds. Reports can include cited code, confidence reasons, call-path images, confirmation steps, and selected export formats, including SARIF.</p>
+<p>To share a review, export a hash-verified investigation bundle or a diagnostic bundle with redaction. A report should be reviewed by a person before external disclosure.</p></section>
+
+<section data-title="Components and settings"><h2>Components and settings</h2>
+<p>Components shows installed Ghidra, Java, REA, and Node.js status. Run Health for a component check, Check Updates for available releases, and Roll Back to return to a prior working component. Settings → Engines lists required and optional tools and lets you adjust time and memory limits.</p>
+<p>Optional symbol server lookup uses the allowlist and cache controls in Settings. A PDB identity mismatch means the symbols belong to a different build; choose the matching PDB or continue without it.</p></section>
+
+<section data-title="Plugins"><h2>Plugins</h2>
+<p>Plugins are declarative JSON files. They can define source, sink, and sanitizer names, review guidance, and a report template. Select <strong>Create Sample</strong> on the Plugins screen, inspect the disabled example, and enable it only after adapting the rules to your organization.</p></section>
+
+<section data-title="Troubleshooting"><h2>Troubleshooting</h2>
+<ul><li><strong>Scan stopped:</strong> open History → Logs, check the engine stage and error, then use Resume after fixing the cause.</li>
+<li><strong>Agent review fails:</strong> verify the CLI path and login, inspect the staged evidence preview, and check the live output and review log.</li>
+<li><strong>Few findings:</strong> inspect Coverage and the minimum threshold. No findings does not prove the binary is safe.</li>
+<li><strong>Symbols rejected:</strong> match PDB GUID and age or ELF build ID with the exact build.</li>
+<li><strong>Window or text too small:</strong> use Settings → Appearance to adjust theme and text size.</li></ul>
+<p>For component attribution and redistribution terms, open Credits and each license detail.</p></section>
+</body></html>

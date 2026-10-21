@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "example-policy",
+  "version": "1.0",
+  "enabled": false,
+  "flow": {
+    "sources": [
+      {
+        "name": "MyInputApi",
+        "output": 0
+      }
+    ],
+    "sinks": [
+      "MyRiskyApi"
+    ],
+    "sanitizers": [
+      {
+        "name": "MySanitizer",
+        "output": "return"
+      }
+    ]
+  },
+  "review_guidance": "Check whether MyRiskyApi receives input without MySanitizer.",
+  "report_template": "# {{plugin_id}} review of {{target}}\n\n{{summary}}\n\n{{findings}}\n"
+}

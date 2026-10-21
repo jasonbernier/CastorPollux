@@ -1,0 +1,17 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+jobs:
+  checks:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-build.txt
+      - run: python -m compileall -q work
+      - run: python work/test_castorpollux_v220.py
+      - run: python work/test_castorpollux_v230.py
+      - run: python work/test_castorpollux_v240.py

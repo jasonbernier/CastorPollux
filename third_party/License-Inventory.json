@@ -1,0 +1,3514 @@
+{
+  "generated_at": "2026-10-20T23:06:00+00:00",
+  "scope": "Files embedded in the CastorPollux build; optional agent CLIs and separately installed tools are not bundled.",
+  "npm_packages": [
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "8.0.6",
+      "declared_license": "MIT",
+      "package_json_sha256": "06a7c46318ca9657cb4fed9090b0a9de36ed7521de0c2e8619a32e6029668402",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "8.0.6",
+      "declared_license": "MIT",
+      "package_json_sha256": "d35bc1065861da3aff3184e3e65b1fcbe3718d94a31167d7ce64fed6ef4ffbbd",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/parser",
+      "version": "8.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "e57d9cbf87f99beba86d045636107bfc2d48553070ee725a617a0639e5e9a204",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/types",
+      "version": "8.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "7bed375dc1ed5037d1e58c8c3916d62d4d512123f5b93b604f5335fb856cf8fa",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@cfworker/json-schema",
+      "version": "4.1.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "22eea38eb34f98c1413cb9af8e5d67d6b36200ccb4a0920eab72458e475b6df9",
+      "local_notice_files": []
+    },
+    {
+      "name": "@clack/core",
+      "version": "1.4.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "374e2b0df8fae1a578f52879d630dfaa39cf44ecf5d3383d602bad4205d213b5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@clack/prompts",
+      "version": "1.7.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "94428ab2d003e96b494eb3a772e1dc26f80126bdf7dbb1b54b55c5f9373daea5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@electron/asar",
+      "version": "4.2.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "067ea299739ad27ed2a2a9a7436e1f83241f72ff0c5cae282b12cff570737f3f",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "0793e722ffe08f3b4f1862c4dc96d920a62d6811a3648b4feb02f06c63227e8b",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "ac7afd57294dbee1f891ca797e19e405340f2cd6031808e6d3845fec60a5b43f",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "declared_license": "MIT",
+      "package_json_sha256": "7f5eacc669d36013f9b792ab15721a97d48b26b093100122aa6c8691ebe656be",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@lydell/node-pty",
+      "version": "1.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "9ad08ff9d997f0b22eda432b14799292d2166451814eb0240589726e56cbd418",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@lydell/node-pty-win32-x64",
+      "version": "1.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "d3b8576e55562557ba32b44a8a63b95708ba6ffe777f49122c37d63fa1516efb",
+      "local_notice_files": []
+    },
+    {
+      "name": "@modelcontextprotocol/client",
+      "version": "2.3.1",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "4a886cbee0d611f822618e4ee94ae4589655c282fa0dbafc17e80da9697f2d91",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@modelcontextprotocol/core",
+      "version": "2.3.1",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "2d367771e2f50a8bda7d7d30bfe2e912739e0e0b9b89329fcb83d53b9848fc4b",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@modelcontextprotocol/server",
+      "version": "2.0.0-alpha.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "72a0f340597d27455c61d323cd060bd153370f486749d159d0f698fc1b5d04d2",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@pinojs/redact",
+      "version": "0.4.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "65c7d0c0ccc98f05bfe3be4a220463ceaf718467d348133db07d04ec80ab093c",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@scalar/openapi-types",
+      "version": "0.8.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "2f20522fb7c4fd0538786d97de858a5dad4cb9fe90e594a7e4e1410ab97060c0",
+      "local_notice_files": []
+    },
+    {
+      "name": "@toon-format/toon",
+      "version": "2.3.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "50001f1b994db02b6c9a76b486831c835b10108660174a5bdaab8684f2b2aaf0",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@xmldom/xmldom",
+      "version": "0.9.12",
+      "declared_license": "MIT",
+      "package_json_sha256": "b61c2dd342e0e1abb800302ec62c0b06ae7a07cd9b907c88428ff80100f64c6a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@xterm/addon-serialize",
+      "version": "0.14.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "48b1c275c67f141828765fbf188457c430827c333dba069fe4520cbedb729763",
+      "local_notice_files": []
+    },
+    {
+      "name": "@xterm/headless",
+      "version": "6.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "6c39530ee759998113bd8bcc306d1b725c0b1d5b0cdc04e071f6945a5f5edf1a",
+      "local_notice_files": []
+    },
+    {
+      "name": "@zip.js/zip.js",
+      "version": "2.15.0",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "e639b082ba2efbacf54d5485c2c8143d6536aae1d0d3298202db1520ea0df6c9",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "abort-controller",
+      "version": "3.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "3d64dcdcf9d0a1d045eb6bcaa5013d486f15527a3668e64b1155839a797da164",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ajv",
+      "version": "8.20.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "1f9033ee5a6515e7d76938b7072941862d1ed228a6879cc7fe10cdeb75107989",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "402fb4bcfa457f0226813f3976ac42839dd619907c075c108efba8600d7edb69",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "async-lock",
+      "version": "1.4.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "263125206ad1c4350b49af17f6e0cc113c447d0d6cf16aec5461dec8e7e3201f",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "atomic-sleep",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "a9cf82d72a5f240fe051ad0db112bed603df981074928291680d221b96a92d5e",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "available-typed-arrays",
+      "version": "1.0.7",
+      "declared_license": "MIT",
+      "package_json_sha256": "ffce2bbb0b85b9a20bcc674e4c78307ead42af0299e1d28a9dfb249566e0a319",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "c984e6ae5c41fac085a07a732b665b22e0a26f28b61c692ba18ff458a8ecc95a",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "9758f3ab8c45e07bb9a368e32f9a8b3729623bbf47cbbb205b32d674ab2a91f0",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bindings",
+      "version": "1.5.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "a87721fe406e1f1798fef44d697b46ea1efe346fda118010334713346ee4207c",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "bl",
+      "version": "4.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "fea66d3b8671e46f77e83db040837cf72da180b8d390d53c43d882fd553659df",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "declared_license": "MIT",
+      "package_json_sha256": "8af7dc0916002266f3b01459ef691d9f834d8ecdb0e021263280a50b913d85fa",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "buffer",
+      "version": "6.0.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "5b105ac0abbf5985cbe62ad28a34032d85c7ef623e0eb01f39441b0feb419004",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-bind",
+      "version": "1.0.9",
+      "declared_license": "MIT",
+      "package_json_sha256": "c11be8b7f9bbe367c27d42fba734b8226c0b15e1e5e1c2d842822d9791f053c7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "59639b628c6846f674857c6a613fd47e2e4d2a24036cdf0f7a62ac634f4c8a5f",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-bound",
+      "version": "1.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "dcc8abb3c4ad3774234272149020cb36d7b1a3d377a419454d1e7adb368dd9c3",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "canonicalize",
+      "version": "3.0.0",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "c9bcb2590b7a2ded24ea63582f2a47cbafb934733ed9429cef120e8d6e55bea9",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cborg",
+      "version": "6.1.3",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "aa2ccbf2212f5012c6f3e0dddbe16af5faee79bfe47ed6d9c4edf4ba077ab191",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chownr",
+      "version": "1.1.4",
+      "declared_license": "ISC",
+      "package_json_sha256": "7c18e85ac9eff99dc6cb6c5626e11ebea658e69119e0bc8cb4bd799c2b48125a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "clean-git-ref",
+      "version": "2.0.1",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "85c489423a88038349e92f2515e9f2d38dac5a2319a467357a1e8141b46613be",
+      "local_notice_files": []
+    },
+    {
+      "name": "commander",
+      "version": "13.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "7c956844374e86a9686f2c6445e868a22f21c0c5cc836c6b5060bcc77a976c9d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "crc-32",
+      "version": "1.2.2",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "2a96a3fe106da3dffa3479e8983c01c745f0f8c8f961ec9b6af5fb7ff35ce05d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "declared_license": "MIT",
+      "package_json_sha256": "2e106cd9b4ae4e34ead35218371a0d4e172da72515a4f8f97d69a2e1fe3dee82",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "decompress-response",
+      "version": "6.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "8fb6b0b19d09cc1c5b2caad128ae39b2fd693a35bb3d440c4e1143bfb9d10080",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "deep-extend",
+      "version": "0.6.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "21b307891704eb34e9be621d7563d13734f75f41d8f97825862b05ca5bc2d217",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "define-data-property",
+      "version": "1.1.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "bde7f1465b344a24da2b10d2ee99f87edf8e0ecd177c28370b60ad9595de730e",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "ee88e5b954fdf3a8480b1d01ef767d68d8ca2c6da269f58c5cf1c5550e9aa2a7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "diff",
+      "version": "9.0.0",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "1c625fe9bba43722c8d8fbd8c2b70edcab5473d75f8d66a862f9800b415aa014",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "diff3",
+      "version": "0.0.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "c73baaf5f0de24083e0101e7dd6fb7ac30a3373e10850e6a04adfcca6185bc5a",
+      "local_notice_files": []
+    },
+    {
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "24df71008e4225c858f389dd2728b76cf66b752256d42a38ed7930aacae7fe2b",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "end-of-stream",
+      "version": "1.4.5",
+      "declared_license": "MIT",
+      "package_json_sha256": "da504d0bef5a5974590b62f58df0003b448eccde6b5fbeb044506b7e43368eb5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "entities",
+      "version": "8.1.0",
+      "declared_license": "BSD-2-Clause",
+      "package_json_sha256": "b6ff1175be0fa103f032d52e42af95d95c674e3cba08d93670cc8944697bcc42",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "3a2cb30dae30a96705dcd9aa2d5fb190cf8200f27badccfa5a81a4374e5708b4",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-errors",
+      "version": "1.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "1a0a0bcccc76b915cb64073317312840cf6363e9144b96f406d0059774dd5278",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "e4b7882975d10c68457945c883e1060d0b058af5b1216215c872263f42e12fc9",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "event-target-shim",
+      "version": "5.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "980bdd7706c72d04a4df2e3ee2c8ffccf3bc72bd8e7cd13ca38be00cafc6e8db",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "events",
+      "version": "3.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "878ad3687fef7efe3757c1872a3af998c95197129a7445d632486a9591ee542e",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "eventsource",
+      "version": "3.0.7",
+      "declared_license": "MIT",
+      "package_json_sha256": "99cec0bc0f4919b5de13302b0ce28cb0dd966b316cd2c961e0e7c73f884f7524",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "eventsource-parser",
+      "version": "3.1.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "27a8440c43f6bb12ec3d93338d93efcc4130e8be1ec7f33f5b31c05c2147430b",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "evmole",
+      "version": "0.9.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "ff76b8ce2a6581af5677be784d4ef5c87040c01464d1d5cb82bfa31de3f95535",
+      "local_notice_files": []
+    },
+    {
+      "name": "expand-template",
+      "version": "2.0.3",
+      "declared_license": "(MIT OR WTFPL)",
+      "package_json_sha256": "90f652967155275d9fab2887a845454ee797340b28cc0c1b00f1889aaa65f771",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "a5c63940db0260739be9e2ac67f3aac268df4db5770420ee4e34e493152f97d2",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-string-truncated-width",
+      "version": "3.0.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "68f98cd59ee3f050e88ad1924dd29dd6a3522199cb480e9ae08f95fd7f8c6f4a",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "fast-string-width",
+      "version": "3.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "2c49e010864a982bf0084dc4c7c267672f38462446e9911a64d0383e16e02712",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "fast-uri",
+      "version": "3.1.8",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "30cad05aad3d3596513706451dbfc7e0422f9c1d00f2903ecc34580327d54bc7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-wrap-ansi",
+      "version": "0.2.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "faec2e80d1e1a395112ffaced479b858905ee233b5630d970a170666aa99c9fc",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "file-uri-to-path",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "71eb1e24bb9694f89c613fa0aa307f977dd43f41d11794c7b48fabf6c55f66b0",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "for-each",
+      "version": "0.3.5",
+      "declared_license": "MIT",
+      "package_json_sha256": "789a488ade1ea7535497f7c86fded54281c4e7ff861fe8e0e667772a00680711",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "frida",
+      "version": "17.23.2",
+      "declared_license": "LGPL-2.0 WITH WxWindows-exception-3.1",
+      "package_json_sha256": "7efb59d2050b7b6304e1617f463c4eb7b2f7cb7e3e80e677976825a76ee31e8d",
+      "local_notice_files": []
+    },
+    {
+      "name": "fs-constants",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "9cefec768b4f8c52591b840367d077a46a5a2b72ea2778dcf037afd96b234671",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "edb1c4faf4148e6e3d74ed8dbac1a1dc359a647ff4207aad4851396dc7a3559a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "45b14763baacc59b0fd7b39e3ad983d5d2aaf7f5ed682f2fce9edb469826c999",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "get-proto",
+      "version": "1.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "73839e012ac7134a632c9d9fc6bdb700ac9ab5553cce39eb789ba2b65663e734",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "github-from-package",
+      "version": "0.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "67742aa2b856e3523c2f89132e41cc5026c49ffe7df58bd3ea906caaa217bd79",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "13.0.6",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "5a28ef9a1f5252feb47ffe288a6350fe99b18311462e6a9cdacbdd0bb4be6be9",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "gopd",
+      "version": "1.2.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "33ace32dc861f6da9d1fd9d0a44c66e8c6ff3b13358d070683c1c2978ff5f19f",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "har-schema",
+      "version": "2.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "4e158e1d035b478257b2ac5d9185a9ad3f888a687d0af5e50ed1b44ae9b896ac",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-property-descriptors",
+      "version": "1.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "59a91e2cf32e4303d248708999a9ec3afd8e3649a87ba7abcf2177dc1984e3d5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "5190268c0e3308d7446d1f7c036238f329f786938453e6017cb90980b3612e7a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "30ab773c52021a6b800ea48f251abeeb1f6e378300f819204dfbb38d6e43f3ad",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "40b750c55a8bacf2c5ac316f5299dd44d48acc101c189a00cd59d39376b5eb89",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "a8004b9c8dffe2e1b01a058ecf968a5d50beabcabc43cc98c655184ba6afc050",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ignore",
+      "version": "7.0.6",
+      "declared_license": "MIT",
+      "package_json_sha256": "fd74f1c93bc4772d79aba83d59b5ca5bc4c2cbc4617e910c59977dfc52414d7d",
+      "local_notice_files": [
+        "LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "aa3b07e7fa3d63aa96e401c3842b8cca1dd3247954baf92377094766e903c185",
+      "local_notice_files": []
+    },
+    {
+      "name": "incur",
+      "version": "0.6.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "0bb39d44e775998e71fb55dbca6f18ef2838b2d20dd0a04d8165bd15aac9928d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "inherits",
+      "version": "2.0.4",
+      "declared_license": "ISC",
+      "package_json_sha256": "be645800bc94fd8de29c8ae91690549b316cc437100108aeea7b2f347693cc80",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ini",
+      "version": "1.3.8",
+      "declared_license": "ISC",
+      "package_json_sha256": "8cfafc3521292bd7434d2f40762984f36eb12f03bde92b42a9df2ea17552f4a4",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-callable",
+      "version": "1.2.7",
+      "declared_license": "MIT",
+      "package_json_sha256": "0d0981565f03ca488d263c94d038717ec4face8b129b8ff18e792dabae2af755",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-typed-array",
+      "version": "1.1.15",
+      "declared_license": "MIT",
+      "package_json_sha256": "51dcf15ccc424ce76b36bef2ef64df7a53e75294cbddf08b4f7e639133145cc5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isarray",
+      "version": "2.0.5",
+      "declared_license": "MIT",
+      "package_json_sha256": "b0802c09bce6bf067d3e5f52390ea26972e11c88bb6ae38991316ac83ca14127",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "395c2af9abeeaafe7391974c1eacfb2a2bdeef187f21c3f5582c49e0368e59bf",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isomorphic-git",
+      "version": "1.38.7",
+      "declared_license": "MIT",
+      "package_json_sha256": "7ad1e02774db249440d286c08f1440acd00eef83b97a90c527c6ce58b85391ca",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "jose",
+      "version": "6.2.12",
+      "declared_license": "MIT",
+      "package_json_sha256": "faa28d9e4362c02c81ce4c7a3b62443495343830c53de2efcbd8c1088e4ba931",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "156fb24af02845c190701360d06dfda35ef04282e34a734289ea9535ad9819ae",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jsonc-parser",
+      "version": "3.3.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "a7a9192caaac00d9330592f4fd572908bee037518128a0fc3db96d2cd652e2b5",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "lossless-json",
+      "version": "4.3.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "0adfbe87ce1b964697e87e8ae9aeac1489a66cee8830ab556e0e0d663fb5a9e8",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "c085d38560434a8915fd1817cd17cee316118078b07f40302b32ef4d8bc760f4",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "39d74aa5a354153130706286dd60a2d8409ce0c8f66546eff2edcac0afff17e1",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mimic-response",
+      "version": "3.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "ff358428a418a46fb2431a2c48b396fb01c8291fec9e1f14434ade01196c8e9c",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "10.2.6",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "bb847ba240909c9a36d4eaeb4e0efdc3e31182aeef208c1611259a48f282ea75",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "minimist",
+      "version": "1.2.8",
+      "declared_license": "MIT",
+      "package_json_sha256": "252881f6a068a3e70386706d88a694b5e8e9e053b6d9f309fd9a329e651bbf81",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minimisted",
+      "version": "2.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "d1355aac6eac8eaa4077ad92a03ef7b9884b89ba3225ced3e46582192262aa0d",
+      "local_notice_files": []
+    },
+    {
+      "name": "minipass",
+      "version": "7.1.3",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "b8ab116187d5e9375d494f17437eb862cbee4b329c21f15412c6a5170ec2f55c",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "mkdirp-classic",
+      "version": "0.5.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "dd81e4703dc7005247e7c2dc056c67c936923a40b4dc9b266cf8acf3442ba89c",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "napi-build-utils",
+      "version": "2.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "001ba5640df99785e76b7d407ae35a24c490f145737cf3f194408fb17dfec411",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "node-abi",
+      "version": "3.98.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "f6f6ac9fe3b3afeb3e2ed5a6080ea075303665a780a0b1b5f87af852ae0ae8f2",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "on-exit-leak-free",
+      "version": "2.1.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "6c6b59245a8a357ba616afd6e1b9bee4caf9c0ed01a21d8f81108ee120d76eb5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "once",
+      "version": "1.4.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "33840d74c14c94bfb75c76374765b635531b1eacb88d7f1f2f380c94d0ea1328",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pako",
+      "version": "1.0.11",
+      "declared_license": "(MIT AND Zlib)",
+      "package_json_sha256": "0014f350a6834ed6a2d1211e0a2e3aa471cb426edf63379c785f9647ea2b4e01",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "8.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "159187fd5c0c0c17456282f4cf7beab91eb46dfc717928522938c947007282b7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "25594dab72681c910d9cc919263a4daf27d77a75e0d2c26a4d958d6d6b798f86",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "path-scurry",
+      "version": "2.0.2",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "fb54fe908dbe5f288bd1c5d7429f033c4f527f435c3d3a583ee0ce9e78992087",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "pify",
+      "version": "4.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "6f3beed79477c32ec1533609a75bef5cc3998e96657277519b3d66bfcc6d046d",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "pino",
+      "version": "10.4.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "882af7236d74b02e48c0963ef69bf2d549568bcf0b076a7dbec8174082943b72",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pino-abstract-transport",
+      "version": "3.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "e62251a7110b225c1a4a7690846b2e82593c2345fb11c5b926700ffd3daf7db3",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pino-std-serializers",
+      "version": "7.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "14d9f107bb3666f82cd90d3b21a2f8d71fd05feb986439b6fb8df16afe908a3a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "74fd5b54078ebad49e15421f928d285f63926caae3220356d95a9afc6fa0e417",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.58.2",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "16a25dbd7368a87af8b58a45c6216b9cec5a91a72cf704533344701997ebde22",
+      "local_notice_files": [
+        "LICENSE",
+        "NOTICE"
+      ]
+    },
+    {
+      "name": "plist",
+      "version": "5.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "94bb512771a930a77e02fa016bbba9ddfcc455f8deff357a84030182df986e53",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "possible-typed-array-names",
+      "version": "1.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "0ff73753495cfff4556a5f8b7847ba1c06530341986e642a8637c6db74d87894",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "prebuild-install",
+      "version": "7.1.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "d8502f5ce977ea10cc7e91e95b595ce845e838cf412801230e9a2f211ad68039",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "process",
+      "version": "0.11.10",
+      "declared_license": "MIT",
+      "package_json_sha256": "8501b4909630e60c9e9f68c4ca8ccb1964688500e61c60408a26d5480a9dd3d4",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "process-warning",
+      "version": "5.1.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "1cfa5a7c795afde7764f89d1d567f042168700c52dbab12bfb3965a554a48f51",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pump",
+      "version": "3.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "d369a9c97d4aaca4a637af77b6ead9169146809ff3c27268e62151b613cae016",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "quick-format-unescaped",
+      "version": "4.0.4",
+      "declared_license": "MIT",
+      "package_json_sha256": "e25559231cba29186a6c278ac945ef19c65b9dca221394892d6682d6a22c046a",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "rc",
+      "version": "1.2.8",
+      "declared_license": "(BSD-2-Clause OR MIT OR Apache-2.0)",
+      "package_json_sha256": "96f035349a8e6034d380348ec3d454ed8ea3a602c7a5700eb36ff48310bdbe9f",
+      "local_notice_files": [
+        "LICENSE.APACHE2",
+        "LICENSE.BSD",
+        "LICENSE.MIT"
+      ]
+    },
+    {
+      "name": "rea-agents",
+      "version": "6.5.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "a500302319c1214a8bb6c9a8b4a4a090806e95eef884204a9d9fbb4003050a6c",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "version": "3.6.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "469ea81f64037d1f179bcd46412217903a2924dd2e7d7d9b728659b6f12c3e69",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "real-require",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "363c0f322273e0ea290e610886baf05db5174ea09c83f11fb585b43627d3d5dc",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "c0002f7d4c7d7e2a885cf0f97226344902417c3a0980f2beca41962d2bc1f6d8",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "e4018fdbfe625433371f48274fee26f520bbe865e0d8c85bf3aa07424134b90c",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "safe-stable-stringify",
+      "version": "2.5.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "797e552ecb0f8ffe8ffb714e6c4888b28a8ca39eb9c0040836b2b6f640037798",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "32052572b41c2a890ed0854798c48454cc5991dcaafe5fb1718a4253046acfd3",
+      "local_notice_files": []
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "declared_license": "ISC",
+      "package_json_sha256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "set-function-length",
+      "version": "1.2.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "2c81bab7f7a60d625164bd840d863548e3f9d4d1aa976b9d2966e5e1e36132a7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "sha.js",
+      "version": "2.4.12",
+      "declared_license": "(MIT AND BSD-3-Clause)",
+      "package_json_sha256": "de7af2f085793d09119bf049f5bec4cf81e68d751d13d90fe027c85ccc31b125",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "44de390ae5ed6c5f9758b8b9c90b93fa53977d5361731600429f1de08f4b3f30",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "b8018c6b8cc9900dfd1ac18a54956ba34c453fdc2da5e5fe555ee8f04133a1c5",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "cd1c6cfa95782e432dd2affaa88c3a6dda7f46c8088d91f3acc0fba79dce5075",
+      "local_notice_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "simple-concat",
+      "version": "1.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "d6ae2e35a0c64b4469f1e531a3244efd50be7c115ef42d1422e54d14d9359e99",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "simple-get",
+      "version": "4.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "8337ba9774d6d8199a5861c6dfa57058f162bfb6210362c01db38f0a593f96d6",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "sisteransi",
+      "version": "1.0.5",
+      "declared_license": "MIT",
+      "package_json_sha256": "4a17bc5c93db1b8f01d84708031339f3a22f39e60e1a92e089cde82f0bb48633",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "smol-toml",
+      "version": "1.9.0",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "0e35bde6992fef675058596ea0e94c2d3ca65e5f9b73a326d94208be6210f192",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "sonic-boom",
+      "version": "4.2.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "bf4b79130506871f2b715121491400f0796a282a5560028d27ffaae5492d5305",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "split2",
+      "version": "4.2.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "87b734c3087c8d9ed5d76d1bff00db30f960831ba8705dd18d73b180d08d2140",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stream-chain",
+      "version": "4.2.6",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "84032ae85f74588673556713d640a940248ae5f2ae5dfdd9b80bb30231890984",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stream-json",
+      "version": "3.7.0",
+      "declared_license": "BSD-3-Clause",
+      "package_json_sha256": "9176f5b9015cc834212dc64b5d4e0698c6e309037b622b3bdd5b17aa5d321059",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "31984c85cd4f3df0aa75075acdec98c25961496897d1f46d04ed4a701f129c54",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "strip-json-comments",
+      "version": "2.0.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "52fba89a1d2724dfeafa21ec58f8c4a8a210103cc6b65b4468ab3fb973ad1753",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "tar-fs",
+      "version": "2.1.5",
+      "declared_license": "MIT",
+      "package_json_sha256": "e67abc8620e8c93860c69d522ffba271a045f6271bc689fdfe400d8d1f14b749",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tar-stream",
+      "version": "2.2.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "bf26c92d0b2d3b865681bac5cf3bca4cd405e33fcb47f45216899aaed4f81010",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "thread-stream",
+      "version": "4.2.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "0f289b7da1bdf19b3e96566714090e06e1103f011cc6f09bde377387332b5938",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "to-buffer",
+      "version": "1.2.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "b9a28e593c952536fd850edc56098bf40679a21e7d1aa6e64a762921af663ef7",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tokenx",
+      "version": "1.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "5bea8a91769e3103e1fabacfb1a51777c8d377b81778c9fc5d72fa6ebd7f2b8b",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tunnel-agent",
+      "version": "0.6.0",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "08a8560b650b49370af44148a8645c11675ba97d21ee7f347d8d434b13c51074",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "typed-array-buffer",
+      "version": "1.0.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "f0f933ad37d3be61efcb8c4fe64088cd97a4bc86038d5bc19f33df1e995bac56",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "declared_license": "MIT",
+      "package_json_sha256": "7bba467f049074957e693fc06672848b040c38fa071b6eed8690f5fbe090a8b2",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "declared_license": "ISC",
+      "package_json_sha256": "43010039ed5e89f7186960be682b3cb5cda5ab6cdfb06cbfd4f081cf0e7b4260",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "which-typed-array",
+      "version": "1.1.24",
+      "declared_license": "MIT",
+      "package_json_sha256": "e175b4177a92cd5f7ae31bc7954edd57369dd059d6faf5f1100f1ab962c6ef01",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "wrappy",
+      "version": "1.0.2",
+      "declared_license": "ISC",
+      "package_json_sha256": "712ac9c4c3cef8bc79f42cf6075ff18551f4cb768f35158214fd643853ad7abc",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "write-file-atomic",
+      "version": "7.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "977192386658b5b60ad3861114565ccc37c0ac2fff56628a6825269779ac7dd6",
+      "local_notice_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.21.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "584ce6e7516587ba249dc910b0c04e2753f6b3f451fc3a5bc324f7735bdacc71",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "xmlbuilder",
+      "version": "15.1.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "8a34e6b05d7b47fc7105969b7600e8c39346f196c9abb898910b56ce359a8885",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "a91c0b20003ff9399dde1de8c59681f1b6901c6fb1aac71780a3a876dc548583",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yaml",
+      "version": "2.9.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "20b8b197cbd10dad245d45e463dfe58e4c8c25a47e24bc4256ad9ab58bf35683",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.4.3",
+      "declared_license": "MIT",
+      "package_json_sha256": "c630bd10b52dcf71c112a2bf78dbf2734b9db58d62de663b8d86c2ec2c8cda2e",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    }
+  ],
+  "npm_count": 168,
+  "npm_nested_packages": [
+    {
+      "name": "buffer",
+      "version": "5.7.1",
+      "declared_license": "MIT",
+      "path": "bl/node_modules/buffer/package.json",
+      "package_json_sha256": "5af7b62dbf5575a301cd13e8616f1d7d9cff3c90f9fab7bc3d6a1f4fbfee94eb"
+    },
+    {
+      "name": "benchmark",
+      "version": "1.0.0",
+      "declared_license": "ISC",
+      "path": "fast-uri/benchmark/package.json",
+      "package_json_sha256": "463a034d344b042e495841b770ca69a812693087ee2053d7c18cc8497e020b58"
+    },
+    {
+      "name": "beep-boop",
+      "version": "1.2.3",
+      "declared_license": "UNKNOWN",
+      "path": "github-from-package/example/package.json",
+      "package_json_sha256": "1b0a33ff4aad344b3d09605b854a4b5bcf1b79bef1dc821fc32d206ba7cc0cf8"
+    },
+    {
+      "name": "ignore",
+      "version": "5.3.2",
+      "declared_license": "MIT",
+      "path": "isomorphic-git/node_modules/ignore/package.json",
+      "package_json_sha256": "a9f40bd310889f21ed824bc19ce140714b7459d658f6708041af53e9855258a6"
+    },
+    {
+      "name": "readable-stream",
+      "version": "4.8.0",
+      "declared_license": "MIT",
+      "path": "isomorphic-git/node_modules/readable-stream/package.json",
+      "package_json_sha256": "556669bd6ac945c4ecc6bf4886aaa26b0b9a65d79446a33f44c31857362be62f"
+    },
+    {
+      "name": "transport",
+      "version": "0.0.1",
+      "declared_license": "UNKNOWN",
+      "path": "pino/test/fixtures/transport/package.json",
+      "package_json_sha256": "6888724b489d5966b754209f8433db288fd34d910ed2f53337f6a10ce4ea1b2d"
+    },
+    {
+      "name": "@modelcontextprotocol/server",
+      "version": "2.3.1",
+      "declared_license": "Apache-2.0",
+      "path": "rea-agents/node_modules/@modelcontextprotocol/server/package.json",
+      "package_json_sha256": "66d43886157bb694672d5e24a590dc543ff44a482e0ec86fd78d437a2d5e0451"
+    }
+  ],
+  "npm_nested_count": 7,
+  "npm_declared_license_counts": {
+    "(BSD-2-Clause OR MIT OR Apache-2.0)": 1,
+    "(MIT AND BSD-3-Clause)": 1,
+    "(MIT AND Zlib)": 1,
+    "(MIT OR WTFPL)": 1,
+    "Apache-2.0": 9,
+    "BSD-2-Clause": 1,
+    "BSD-3-Clause": 7,
+    "BlueOak-1.0.0": 5,
+    "ISC": 14,
+    "LGPL-2.0 WITH WxWindows-exception-3.1": 1,
+    "MIT": 127
+  },
+  "pnpm_embedded_packages": [
+    {
+      "name": "@isaacs/fs-minipass",
+      "version": "4.0.1",
+      "declared_license": "ISC",
+      "package_json_sha256": "ab8c1c2bce664e4c76b1937fa1a28f00ca5231a70cf0c1f78dd473101a9d2a88",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@reflink/reflink",
+      "version": "0.1.19",
+      "declared_license": "MIT",
+      "package_json_sha256": "e99ee5ff222a9356c129c180a6ae8cbd9aa2af62e40ab4bd4c1f1c0212f72521",
+      "local_notice_files": []
+    },
+    {
+      "name": "@reflink/reflink-darwin-arm64",
+      "version": "0.1.19",
+      "declared_license": "MIT",
+      "package_json_sha256": "fbbf219b021f4d1175864cd5ea0eec9ff8aaee56f710fa2c5ff4cbae099f08e1",
+      "local_notice_files": []
+    },
+    {
+      "name": "@reflink/reflink-darwin-x64",
+      "version": "0.1.19",
+      "declared_license": "MIT",
+      "package_json_sha256": "ef663980cb91dd3070a8ca5945a087d0ffd6e3bbc842d35697e143b18614ac05",
+      "local_notice_files": []
+    },
+    {
+      "name": "@reflink/reflink-win32-arm64-msvc",
+      "version": "0.1.19",
+      "declared_license": "MIT",
+      "package_json_sha256": "b6684d5ab4d22565fc50083c86a088ad3b9f13d31f09048fabc79a2a37e570be",
+      "local_notice_files": []
+    },
+    {
+      "name": "@reflink/reflink-win32-x64-msvc",
+      "version": "0.1.19",
+      "declared_license": "MIT",
+      "package_json_sha256": "17234edc0cff64b71ad78d6194731b5932998cea4e878665078e3e9e2f8ccd96",
+      "local_notice_files": []
+    },
+    {
+      "name": "abbrev",
+      "version": "4.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "86c0a87ee85682437c2617ea516604ac19dcc7b8e1fc5d34a2220f320347c627",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chownr",
+      "version": "3.0.0",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "4300e90fdd91ec7035047473c60f880251a9801bd786302729d4277751d3b948",
+      "local_notice_files": []
+    },
+    {
+      "name": "env-paths",
+      "version": "2.2.1",
+      "declared_license": "MIT",
+      "package_json_sha256": "b92833e5851ec53bd4cd8093f6099d0c6e6818c4374ec1d09aa25d4f9ba91ec4",
+      "local_notice_files": [
+        "license"
+      ]
+    },
+    {
+      "name": "exponential-backoff",
+      "version": "3.1.3",
+      "declared_license": "Apache-2.0",
+      "package_json_sha256": "c3076cc23aa8d9f5123900305b9c174af612bfef91211c658ab914611dd86fa8",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "aca49395d61ef383a09f74555c66ed45817ca2b5724e710a4dc9e0471b83d8f5",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "declared_license": "ISC",
+      "package_json_sha256": "5747d4ba6b17165c6ecac30ab3a331715f41c7ad546e1f1574dab1bdcb116181",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isexe",
+      "version": "4.0.0",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "1889746f84d1e2a524353a2e31464995b808f24457f0dd55d6fd9da638f978ed",
+      "local_notice_files": []
+    },
+    {
+      "name": "minipass",
+      "version": "7.1.3",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "b8ab116187d5e9375d494f17437eb862cbee4b329c21f15412c6a5170ec2f55c",
+      "local_notice_files": []
+    },
+    {
+      "name": "minizlib",
+      "version": "3.1.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "3e3b206f94f3bd444f18fed847d8caeacb84925c628ae3d87805bc1dd6c4c470",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "node-gyp",
+      "version": "12.3.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "d19b594bcbf958f80ec6863a44be2c5bd3ad84077c1de5f57b18168014fa97bd",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "nopt",
+      "version": "9.0.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "9e9aa0342cc3232da295048d60276edff062faf18b317b600c6ccb6bfc0d212f",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "declared_license": "MIT",
+      "package_json_sha256": "479b70b87aa7b44344d62c8a459ae7e53dd2bca6c61f1396bd55e63e9de73fc6",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "proc-log",
+      "version": "6.1.0",
+      "declared_license": "ISC",
+      "package_json_sha256": "5da081088a404333c924e99523d09d00d90f0e2c2bff011bc14f8899dff8897d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "declared_license": "ISC",
+      "package_json_sha256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tar",
+      "version": "7.5.22",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "31b18f4fb83ba7183f54fa9e2cdca610897108c37ba80570c2c6fa7ccf112d97",
+      "local_notice_files": []
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "declared_license": "MIT",
+      "package_json_sha256": "bd2b2af3c9ba0580f1acfb22c55d0b6d29abf683af5cac8a2efe82fa7c943f23",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "6.28.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "f529aa8b145f6e270a72700ceb6c8dd3b87f742313078ea9f774a9d2ce8c865d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "v8-compile-cache",
+      "version": "2.4.0",
+      "declared_license": "MIT",
+      "package_json_sha256": "0fa03730c3968110f6f8c088ebfba37a43190690a964fb8bcc6e485adbe5f1cc",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "which",
+      "version": "6.0.1",
+      "declared_license": "ISC",
+      "package_json_sha256": "a587811d0c730bfc8be6a78adc62c8ca4d55f80a253c88d5d827fd5b3e97703d",
+      "local_notice_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yallist",
+      "version": "5.0.0",
+      "declared_license": "BlueOak-1.0.0",
+      "package_json_sha256": "1b9d47057ce39814531ff93f668823b4fa03e7d23945449c274a1ff6d4cc297f",
+      "local_notice_files": []
+    }
+  ],
+  "pnpm_embedded_count": 26,
+  "pnpm_vendor_files": [
+    {
+      "path": "dist/vendor/fastlist-0.3.0-x64.exe",
+      "sha256": "8e4de5aec9d3a664337e54b366e21ae25a98c949b6f758877ea6d6c6083cb2ed"
+    },
+    {
+      "path": "dist/vendor/fastlist-0.3.0-x86.exe",
+      "sha256": "38c66430524b42671439eb616b2c8a2167791a99ff2d84b8d7347b20bdc21993"
+    }
+  ],
+  "frozen_python_packages": [
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "declared_license": "MIT"
+    },
+    {
+      "name": "customtkinter",
+      "version": "6.0.0",
+      "declared_license": "Creative Commons Zero v1.0 Universal"
+    },
+    {
+      "name": "darkdetect",
+      "version": "0.8.0",
+      "declared_license": "BSD-3-Clause"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "declared_license": "Apache-2.0 OR BSD-2-Clause"
+    },
+    {
+      "name": "Pillow",
+      "version": "12.3.0",
+      "declared_license": "MIT-CMU"
+    },
+    {
+      "name": "reportlab",
+      "version": "4.4.6",
+      "declared_license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc."
+    },
+    {
+      "name": "typing_extensions.py",
+      "version": "",
+      "declared_license": "UNKNOWN"
+    }
+  ],
+  "component_archives": {
+    "ghidra": {
+      "archive": "ghidra_12.1.4_PUBLIC_20260921.zip",
+      "archive_sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+      "legal_files": [
+        {
+          "path": "ghidra_12.1.4_PUBLIC/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/DMG/LICENSE.txt",
+          "sha256": "1ba83a7e6ed93159a791bcbdd54ee1938d09c5ee38c0ef827e466d066c0c457c"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/DemanglerGnu/LICENSE.txt",
+          "sha256": "264b01ceba84ec44996cac10fcef5a7aecff11c8b2588514af5d1d06ab760f71"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/GPL_2.txt",
+          "sha256": "a296d796b31dae26f6d16dddf3e78104586a8dc5df40757b94b2c8fe1e1ab7a5"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/GPL_2_With_Classpath_Exception.txt",
+          "sha256": "0b0ea7c53f66b265ae3f3838b0debbf2421063c08dd1da6f8e0932da7a963bab"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/GPL_3.html",
+          "sha256": "e99f89f4607e67bd4d6a0ef7a82cb733d6420176faca1a812e293e379547068e"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/GPL_3_Linking_Permitted.txt",
+          "sha256": "ef3904d9e92da8107afc50c74c23a01a43a2444fca129f79a8a313e662a6402d"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/LGPL_2.1.txt",
+          "sha256": "a190dc9c8043755d90f8b0a75fa66b9e42d4af4c980bf5ddc633f0124db3cee7"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/LGPL_3.0.html",
+          "sha256": "825f3370d3dd5358bdb9e3c8811f702c41018262eab4bcedf12e377ecc3e1620"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/Modified_Nuvola_Icons_-_LGPL_2.1.txt",
+          "sha256": "ed7354f797ee17511a07a3a96966e3826ebb4748e2ec926fdd167ad3b89065dc"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/GPL/licenses/Public_Domain.txt",
+          "sha256": "231c2b1223b035aa9977d293a661cb6a86fc936fcdb8b08d762c05d3c711c568"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Configurations/Public_Release/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/AnnotationValidator/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/LICENSE.txt",
+          "sha256": "22ac24d6bcc6fdb461d91a5994104e18a42df7a5a409534783d7fff9d1682f52"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-dbgeng/LICENSE.txt",
+          "sha256": "5a0f435a30a33dbbfa17373b98571ad47fb64fccf55186c05ec53662cb31ec21"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-dbgeng/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-drgn/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-drgn/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-gdb/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-gdb/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-lldb/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-lldb/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-x64dbg/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-agent-x64dbg/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-api/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-importers/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-isf/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-jpda/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/LICENSE.txt",
+          "sha256": "7a9b0e8689599b61506342a8735c9c0953ea8e4fdd23d4da8b3db59d3449e13d"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/Framework-TraceModeling/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/ProposedUtils/LICENSE.txt",
+          "sha256": "71b8896a053a26307175d3dd7f2ee2f9c501ceefeaff3ca1a5dccee52c0d96df"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Debug/TaintAnalysis/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/LICENSE.txt",
+          "sha256": "909a2e6dc0b67e6c27b70fc62974a0b0e2292c3cae31eb45ffc36a2813ab8c93"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/BSimFeatureVisualizer/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/LICENSE.txt",
+          "sha256": "39d9a83467321a8d4b8e8fd7f7121adb714deb93f6211282cce8159f38fe06f2"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/ByteViewer/LICENSE.txt",
+          "sha256": "45ca51b0eb7d3060855796294cdd67b7db03c7f21a7f573041fb2cde8340138c"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/CodeCompare/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/DataGraph/LICENSE.txt",
+          "sha256": "33f492c73a5548370010c869a7d0fd47cde220f7c9f3312c8b1df8eab8bee0b5"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/DebugUtils/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/LICENSE.txt",
+          "sha256": "1a09eeda7404fe2da427d03933c2167486f4e7fd8e03ca4f69dd572378ce8908"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/LICENSE.txt",
+          "sha256": "84a6a28ace15b29c23b5e7ceeb1eda2c4f626ca9b4de818a539c094138842cfb"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionGraph/LICENSE.txt",
+          "sha256": "47c0b493bac48e0d16b53f193380f11720eb1315a6a3a8781fae342da135e2c5"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionGraphDecompilerExtension/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GhidraGo/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GhidraServer/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GhidraServer/data/yajsw-stable-13.18/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GraphFunctionCalls/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/GraphServices/LICENSE.txt",
+          "sha256": "7c832cc262da3ec058bdc299544dd3be2fba45dd8c618bda31431edf2e51373d"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftDemangler/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftDmang/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/ProgramDiff/LICENSE.txt",
+          "sha256": "41df75c9b7a075d4219b2fa0afda7b6b13d57d0c4b43744da743f4ca8370a464"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/ProgramGraph/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/LICENSE.txt",
+          "sha256": "63a08a1cecf2f17bb019aab9de2a54cd4ea4133e45cd016f268f69e8999e8891"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/pypkg/LICENSE",
+          "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/Recognizers/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/Sarif/LICENSE.txt",
+          "sha256": "ad1ccc22a6d9d5c6bfd556351d15ed7ce5ec89d240340e09018e7cde0466df90"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/SourceCodeLookup/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/LICENSE.txt",
+          "sha256": "41d3173d04f7f17e2606488d5989272fdedbf72850189afcaa2b774534b6cda0"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTrackingBSim/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/DB/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Docking/LICENSE.txt",
+          "sha256": "0bc9e05c28afe7095c33a38e09cd775b7c7b3307790bbe7de62ca59dbb8bcd35"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Emulation/LICENSE.txt",
+          "sha256": "09fe1e2185fa7818117d2ab88332ec8046e47ac9719a5de58104806f5448faba"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/FileSystem/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/LICENSE.txt",
+          "sha256": "8b8a563203924d13765112317e128277f0972ab80af45388fbbf6683dd9adebe"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Graph/LICENSE.txt",
+          "sha256": "ee5625735ecafef3e9e2ab9f9c871faf260b7c0d288e60f3ebfcbf8573c6bba0"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Gui/LICENSE.txt",
+          "sha256": "e197919edbea7051bc8d460e5cbe7007ef6a56ecf4efb42df2123dab0d0e7464"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Help/LICENSE.txt",
+          "sha256": "54b5b3d516d61f4d053fd6f381ba1da8873af1c8ca4d4ed053e4fd0091cd2b52"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Project/LICENSE.txt",
+          "sha256": "d5d86f833450c99ed73686a23f4f9401ec1cdab0941e7a7cd21eef8d3952eb30"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Pty/LICENSE.txt",
+          "sha256": "a90163e4d5c29152d4463dd458ca3287c13e17aec06266222b127f89238d7017"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/SoftwareModeling/LICENSE.txt",
+          "sha256": "96727e2e3d3479f81562fe99bd375b7a776f1eedd1b120d4affe6484a6773bda"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Framework/Utility/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/6502/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/68000/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/8048/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/8085/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/AARCH64/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/ARM/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/BPF/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/CP1600/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/CR16/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Dalvik/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/HCS08/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/HCS12/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Hexagon/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Loongarch/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/M16C/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/M8C/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/MC6800/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/MCS96/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/MIPS/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/NDS32/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/PA-RISC/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/PowerPC/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/RISCV/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Sparc/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/SuperH/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/SuperH4/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/TI_MSP430/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/V850/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Xtensa/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/Z80/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/eBPF/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/tricore/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/Ghidra/Processors/x86/LICENSE.txt",
+          "sha256": "97229be970382866b88f5868b00382260ccbd44a0f65a21148582114fe18dc15"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Apache_License_2.0.txt",
+          "sha256": "8f1dd6568acc5537cccd1ab96a96a5c1b3b018b2bec4ba20ea1aea0007e9cd0f"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Apache_License_2.0_with_LLVM_Exceptions.txt",
+          "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-2-ATLASSIAN.txt",
+          "sha256": "11cfcf6da0142fb1971c1f40f5924ddded14454e2793d7f1dd87c9f4abe42dfd"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-2-ORACLE.txt",
+          "sha256": "14da2c640eb37e926aac3728973e29c12576d605e9214afa2f86d75b8cc1f510"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-APPLE.txt",
+          "sha256": "0d8cc1ed390f89c7761ae907485c731d7f9931f04a39fb78b6e67cb8a7018253"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-CAPSTONE.txt",
+          "sha256": "7e8e82228497c8c0793d60daeab8d9f6e685b534c7572367d12e1058fe3807d9"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-GOOGLE.txt",
+          "sha256": "2ab8bdc87b30d8546d73b2bff05508d6d4a178cf3eb7e10fde9865a9ecc2c77c"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-GRUVER.txt",
+          "sha256": "96fccc0d6e507a3962fe3c3259bb49a9f2a3c83e21b72f7ebfd7aacf15d70a1f"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-HAMCREST.txt",
+          "sha256": "bc9f715c9d52173739164e6e4b94b7b26497e73ef3253067c96996d39c20c3ca"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-JUNG.txt",
+          "sha256": "307a3458b0f83cc4b100e149225e81739d728bf9cf0a79aaa1236a5a72e8e81f"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-ORACLE.txt",
+          "sha256": "53874a0e823dacd9a45ea08575fcffaa88817ebb04e7a3692c76ecfc8b07c7ad"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-PARR-HARWELL.txt",
+          "sha256": "6ca5ac68a6350ec7142273fb703f393502676cf0b990e6a9aed28ba81925d705"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD-3-PSUTIL.txt",
+          "sha256": "7ce01ad04dc2b07baad09c399b9f56506c650ae43b6229e72439901337253e1c"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/BSD.txt",
+          "sha256": "2da9db04aab4d4fb108ceca21c7cb19848553df5a434945d5c74e20600a6cd39"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Bouncy_Castle_License.txt",
+          "sha256": "bd380b4cecf7f96edaa99a950c8b81690ccf62088e720728648fa683352de61d"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Creative_Commons_Attribution_2.5.html",
+          "sha256": "1357dd7120913a25fb5940996c35c7a182629b885f7906e25b4e7f21de08bce1"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Crystal_Clear_Icons_-_LGPL_2.1.txt",
+          "sha256": "44c0e705b3c2b98652447d57a1f2a3638cfdad39a09ab378980b3248305dc1eb"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/FAMFAMFAM_Icons_-_CC_2.5.txt",
+          "sha256": "9fc3389bae9d03a4e5f081f3a4328570e5fd68118c4795357f40d012d0a3301b"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/FAMFAMFAM_Mini_Icons_-_Public_Domain.txt",
+          "sha256": "43c1dc0dc1f5c41d0f2cfebe893d5caed5fc37c9a12d58f20d0b3c811b8894af"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/GPL_2_With_Classpath_Exception.txt",
+          "sha256": "0b0ea7c53f66b265ae3f3838b0debbf2421063c08dd1da6f8e0932da7a963bab"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/H2_Mozilla_License_2.0.html",
+          "sha256": "ca6be3a2c2fdb153e0adb44afd8998ecb98257c7a45930ba30b8d805508feaea"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/INRIA_License.txt",
+          "sha256": "29819a0fd7b282175b64c12e517f877fa89d7155f702a65fd432753f4fe8bbfb"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/JDOM_License.txt",
+          "sha256": "64b33d5d9a060819565dec1f3be2186508c33b179b8b9d01cad35926955e73eb"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Jython_License.txt",
+          "sha256": "2055ffb580ef22a100ee2f62b0c4f6e5249d5d4f26b5ece1826448a9d30ee3ac"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/LGPL_2.1.txt",
+          "sha256": "a190dc9c8043755d90f8b0a75fa66b9e42d4af4c980bf5ddc633f0124db3cee7"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/LGPL_3.0.html",
+          "sha256": "825f3370d3dd5358bdb9e3c8811f702c41018262eab4bcedf12e377ecc3e1620"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/MIT.txt",
+          "sha256": "843fdced3aad9c6089b2042b2d4072e4f7ac90fdefb9bac5d6e81903e482666f"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Modified_Nuvola_Icons_-_LGPL_2.1.txt",
+          "sha256": "ed7354f797ee17511a07a3a96966e3826ebb4748e2ec926fdd167ad3b89065dc"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Nuvola_Icons_-_LGPL_2.1.txt",
+          "sha256": "1f035a4f051456092982e19610a2fd70c09e75ba803237d8bd9fcadd7daaf108"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Oxygen_Icons_-_LGPL_3.0.txt",
+          "sha256": "85de91c91530556865731fc330301c6075325b4eaa6161b5a9ac058652158288"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/PostgresqlJDBC_License.txt",
+          "sha256": "5be1f67a4d62692cc2fc8b81a71088943fc4c1462bd76fd2f04bc0e965ca6d53"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Postgresql_License.txt",
+          "sha256": "163ee376f7fcd9e2b9409a4c83975c6f5f742ce791116c6081075029a1d4846d"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Public_Domain.txt",
+          "sha256": "440d25a466b230f9dd9987e28c4c06618047c5d3310ec0dfd01230e93f8385fc"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Python_Software_Foundation_License.txt",
+          "sha256": "0e700f6605c5b82ecda8eba25e24577f7ea7a9842266777093f8756216cabe1e"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/Tango_Icons_-_Public_Domain.txt",
+          "sha256": "b2121ff2947cbe5b0212b11b923b951599d98f5b225f1680a6ffb3fd70cc98e7"
+        },
+        {
+          "path": "ghidra_12.1.4_PUBLIC/licenses/zlib_License.txt",
+          "sha256": "907424bb0212d095d6200b08013a4f67ff9bd74c41bd78eace5a0ef99fa0fd6b"
+        }
+      ],
+      "legal_file_count": 155
+    },
+    "temurin": {
+      "archive": "OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "archive_sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "legal_files": [
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/ADDITIONAL_LICENSE_INFO",
+          "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/aes.md",
+          "sha256": "45c6d4da48325edfbff3dcf71c704e504c057904435ed23c6d57046d551eb69d"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/asm.md",
+          "sha256": "683be15695bd248272d60f5b7fbe5e126a935ea6bf231a624a9aa164733e1d1d"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/ASSEMBLY_EXCEPTION",
+          "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/c-libutl.md",
+          "sha256": "bef40679922d6fdfb7e4ddb223ad6722300f6054ba737bbf6188d60fcec517f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/cldr.md",
+          "sha256": "19515e14a240e022640e95b61b5095127fa9690755950b4a2b0a02e783e08163"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/icu.md",
+          "sha256": "1bf28459c6e0af9f3429f4f8becd1668d6544055f8df240277456bc4b3d8a752"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/LICENSE",
+          "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/public_suffix.md",
+          "sha256": "861de1e4992a7d28f1de25c73cd50d26a94779ebd749c0643fecfa56442c3429"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/siphash.md",
+          "sha256": "5a792b5a74ad2a5f3d6a7ad8b7a841116e58a772c18bc6e392320a365b222c76"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/unicode.md",
+          "sha256": "6f72f10d166b2c2e8a395e03e734c5afc852b59aeca73ced124f6b9c96268d53"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/wepoll.md",
+          "sha256": "3ac2992770080453b98c42afa807ba4b2c1738ef756b92a55c645f55e7df48f0"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.base/zlib.md",
+          "sha256": "c9c70c36a1f0325e8788771906202d42ba6ab4205caca44ec0f665707e83226b"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.compiler/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.compiler/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.compiler/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.datatransfer/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.datatransfer/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/colorimaging.md",
+          "sha256": "04d61e3e8e71dd452ebe52008af5378d9f6640d14578aeb515dc5375973b0189"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/freetype.md",
+          "sha256": "553e804baecb7de7129d77c7259a6b70037d1893f1c600b41b35201695fb7758"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/giflib.md",
+          "sha256": "206aab89ec75968e48a6a1ed6df7d8b9bfb7aea12cbe4c9345d93e5d97460a25"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/harfbuzz.md",
+          "sha256": "5ec7cba7f8e7fc3a089213140aab6fa1b3bd5bf8a91bf8bddb3b8d315fc5f7d0"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/jpeg.md",
+          "sha256": "c1dfb9719a71ad9f861f8728550542d681e25c8ef40e6393606e6e2a0c1d653a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/lcms.md",
+          "sha256": "843f9f6fa9c3f8109fcf4d5fe74caf7f2ae8e9bcd92238e4aff2d428c932b24b"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/libpng.md",
+          "sha256": "f73afb394792f3aeecd959e89487603677a430e56b44eba596d8b572accfd540"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.desktop/mesa3d.md",
+          "sha256": "63f4e6f75caebbccb95d903fb43e46ac7111b3624d0a34f146b276d7d9e7b152"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.instrument/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.instrument/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.instrument/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.logging/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.logging/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.logging/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management.rmi/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.management.rmi/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.naming/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.naming/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.naming/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.net.http/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.net.http/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.net.http/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.prefs/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.prefs/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.prefs/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.rmi/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.rmi/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.rmi/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.scripting/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.scripting/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.scripting/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.se/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.se/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.se/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.jgss/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.jgss/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.sasl/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.security.sasl/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.smartcardio/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.smartcardio/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql.rowset/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.sql.rowset/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.transaction.xa/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.transaction.xa/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/bcel.md",
+          "sha256": "cd578186ad93de46cca29ec8ace2b11f9da751987f3f140e6095c528596cc8c1"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/dom.md",
+          "sha256": "6686e8877667584a3a7c07344baadca1a03e29f677162d87c3c0811e990d1148"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/jcup.md",
+          "sha256": "8d5dcfdf50455a3c34c753a98f21e953248af200415a9084e3f102cb6c43b8bf"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/xalan.md",
+          "sha256": "c27eb875da4be683d4d7422be986e5e30f636ede31958ff1d39f9cd6109e7a00"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml/xerces.md",
+          "sha256": "4a6bf6b367193ee68681cb2d9fed30ffc5d62dd2d477bd62e0271707d71b3244"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml.crypto/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml.crypto/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/java.xml.crypto/santuario.md",
+          "sha256": "d08690d25f660f145c73365d260ed522cd0aace8a0e1396706551b7a1ae8c9a3"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.accessibility/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.accessibility/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.attach/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.attach/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.attach/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.charsets/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.charsets/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.compiler/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.compiler/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.compiler/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.cryptoki/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md",
+          "sha256": "1f36ff1342a581142c858f90064e20633d43529ac82adb85345bd902a14e18b2"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.cryptoki/pkcs11wrapper.md",
+          "sha256": "371974b1fca3744a3892c7ee1fcc593b8b4281fc218f4cafd2f709e9df5fd81d"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.ec/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.mscapi/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.mscapi/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.crypto.mscapi/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.dynalink/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.dynalink/dynalink.md",
+          "sha256": "17312591cabee3ef6c34ed8897d92e4e361ba9cea41ec00dcd61a322a8fc2cdb"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.dynalink/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.editpad/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.editpad/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.editpad/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.hotspot.agent/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.httpserver/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.httpserver/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.incubator.vector/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.ed/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.ed/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.jvmstat/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.le/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.le/jline.md",
+          "sha256": "a6fb63a226b77b03cbd7559cce6cdc3e1ea8563af960b1dce2330c8e1dce1abf"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.le/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.opt/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.opt/jopt-simple.md",
+          "sha256": "99bc67f93cf57d6d20e6047731c93fbb267d70fbdd4115d119e0f85c6efe5c05"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.opt/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.ci/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.internal.vm.compiler.management/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jartool/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jartool/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jartool/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.javadoc/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.javadoc/jquery.md",
+          "sha256": "b68f454c2bd58959c862d94bf0f16c3f78a2d537388ca060d354344db80ee695"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.javadoc/jqueryUI.md",
+          "sha256": "7854d2d568992ae25ff65867bd9021d655f70670142f0796b29a3b0621f19530"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.javadoc/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jcmd/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jcmd/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jconsole/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jconsole/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdeps/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdeps/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdi/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdi/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdi/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jdwp.agent/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jfr/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jfr/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jlink/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jlink/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jlink/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jpackage/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jpackage/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jshell/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jshell/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jshell/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jsobject/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jsobject/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jstatd/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.jstatd/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.localedata/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.localedata/cldr.md",
+          "sha256": "09972449731a1d1a0863af0384aeb7839f84cac74983c96856e6c305e31ed8b2"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.localedata/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.localedata/thaidict.md",
+          "sha256": "c326144a2351c9608fa708b5d7d3c5a3da03e82b66479b128e9db4969539824a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.agent/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.agent/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.management.jfr/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.dns/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.naming.rmi/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.net/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.net/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.net/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.nio.mapmode/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.random/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.random/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.random/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.sctp/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.sctp/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.auth/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.auth/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.security.jgss/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.unsupported.desktop/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.xml.dom/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO",
+          "sha256": "ebf9777bd307ed789ceabf282a9aca168c391c7f48e15a60939352efb3ea33f9"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.zipfs/ASSEMBLY_EXCEPTION",
+          "sha256": "b998cda101e5a1ebcfb5ff9cddd76ed43a2f2169676592d428b7c0d780665f2a"
+        },
+        {
+          "path": "jdk-21.0.12.1+1/legal/jdk.zipfs/LICENSE",
+          "sha256": "86e0516b888276a492b19f9a84f5a866ed36925fae1510b3a94a0b6213e69192"
+        }
+      ],
+      "legal_file_count": 243
+    }
+  },
+  "sidecar_license_documents": [
+    {
+      "path": "charset-normalizer-LICENSE.txt",
+      "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1"
+    },
+    {
+      "path": "CustomTkinter-LICENSE.txt",
+      "sha256": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d"
+    },
+    {
+      "path": "darkdetect-LICENSE.txt",
+      "sha256": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe"
+    },
+    {
+      "path": "Ghidra-DISCLAIMER.txt",
+      "sha256": "324f4544abe620362f7bc66fbd8ec3c90e62e1aeac249fb850aef67e71c8b24d"
+    },
+    {
+      "path": "Ghidra-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "Ghidra-NOTICE.txt",
+      "sha256": "ad4b2bb6e75e908251226180081b5afa01c7161d7710e08b603d0c340a08a23f"
+    },
+    {
+      "path": "Node-LICENSE.txt",
+      "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+    },
+    {
+      "path": "packaging-LICENSE.APACHE.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "packaging-LICENSE.BSD.txt",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "packaging-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "Pillow-LICENSE.txt",
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "path": "pnpm-LICENSE.txt",
+      "sha256": "e0a867ff513ea7be2a0ddc339ac6a031e459a38668e077b8f0e649544062f9f2"
+    },
+    {
+      "path": "PyInstaller-COPYING.txt",
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+    },
+    {
+      "path": "Python-LICENSE.txt",
+      "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419"
+    },
+    {
+      "path": "REA-LICENSE.txt",
+      "sha256": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b"
+    },
+    {
+      "path": "REA-THIRD-PARTY-NOTICES.md",
+      "sha256": "43e579cc53ead3b9ebe1ca78b594bf8acabd341eab8065194e4226bc11d0ac12"
+    },
+    {
+      "path": "ReportLab-LICENSE.txt",
+      "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138"
+    },
+    {
+      "path": "Temurin-LICENSE.txt",
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+    },
+    {
+      "path": "Temurin-NOTICE.txt",
+      "sha256": "c02756bcd9fa8191bf0fda4451bc018414dd44ee35bf09922c24377a475e4b5a"
+    }
+  ],
+  "note": "A package.json declaration alone does not settle all copyright and redistribution duties; inspect the bundled notices and source obligations before commercial release."
+}

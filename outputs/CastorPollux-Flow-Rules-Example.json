@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "name": "ReadFile",
+      "output": 1
+    },
+    {
+      "name": "recv",
+      "output": 1
+    },
+    {
+      "name": "recvfrom",
+      "output": 1
+    },
+    {
+      "name": "fgets",
+      "output": 0
+    },
+    {
+      "name": "gets",
+      "output": 0
+    },
+    {
+      "name": "scanf",
+      "output": 0
+    },
+    {
+      "name": "getenv",
+      "output": "return"
+    },
+    {
+      "name": "GetEnvironmentVariable",
+      "output": 1
+    },
+    {
+      "name": "GetCommandLine",
+      "output": "return"
+    },
+    {
+      "name": "InternetReadFile",
+      "output": 1
+    },
+    {
+      "name": "read",
+      "output": 1
+    },
+    {
+      "name": "fread",
+      "output": 0
+    }
+  ],
+  "sinks": [
+    "strcpy",
+    "strcat",
+    "sprintf",
+    "memcpy",
+    "memmove",
+    "system",
+    "popen",
+    "WinExec",
+    "CreateProcess",
+    "ShellExecute",
+    "LoadLibrary",
+    "VirtualAlloc",
+    "VirtualProtect",
+    "WriteProcessMemory",
+    "execve"
+  ],
+  "sanitizers": []
+}

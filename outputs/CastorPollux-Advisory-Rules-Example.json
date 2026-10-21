@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "rules": [
+    {
+      "id": "example-disable-before-use",
+      "enabled": false,
+      "cve": "CVE-2099-0001",
+      "library": "OpenSSL",
+      "formats": [
+        "PE"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "optimization_levels": [
+        "-O2",
+        "-O3"
+      ],
+      "required_binary_markers": [
+        "EXAMPLE_FEATURE_ENABLED"
+      ],
+      "excluded_binary_markers": [
+        "EXAMPLE_FEATURE_DISABLED"
+      ],
+      "note": "Replace this with an advisory-specific, independently checked build rule."
+    }
+  ]
+}
