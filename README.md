@@ -45,6 +45,3 @@ If `ghidra_status` is `failed`, open **History → LOGS → ghidra.log** and ins
 
 Application source, build scripts, bundled About content, editable Help content, and focused tests live in `work/`. `outputs/` holds the release document templates required by the build script. Downloaded engine archives, runtime trees, investigations, and built EXEs are intentionally absent from Git. See [BUILD.md](docs/BUILD.md).
 
-## Rights and redistribution
-
-The original CastorPollux application code in this source package is currently **rights reserved; no open-source license is granted**. Third-party files retain their own licenses. The current commercial audit says the bundled release is **not yet cleared for paid redistribution**; review and satisfy its listed source/notice obligations before selling or redistributing the full EXE. A license for CastorPollux's original code can be added by the owner later.
